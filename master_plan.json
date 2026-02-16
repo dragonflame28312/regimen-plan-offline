@@ -1,1 +1,192 @@
 [{"date": "2026-01-15", "time": "07:00", "weekday": "Thursday", "period": "morning", "supplements": "Alpha GPC, Lion's Mane, B-Complex, Biotin, Pygeum Africanum, Cod Liver Oil", "hair_care": "Minoxidil", "skin_care": "Cleanse, Niacinamide, CeraVe Lotion, SPF"}, {"date": "2026-01-15", "time": "12:00", "weekday": "Thursday", "period": "midday", "supplements": "Lion's Mane, ACV", "hair_care": null, "skin_care": "HA body, Body cream"}, {"date": "2026-01-15", "time": "20:00", "weekday": "Thursday", "period": "night", "supplements": "Biotin, ACV", "hair_care": "Minoxidil", "skin_care": "Moisturizer"}, {"date": "2026-01-16", "time": "07:00", "weekday": "Friday", "period": "morning", "supplements": "Alpha GPC, Lion's Mane, B-Complex, Biotin, Pygeum Africanum, Cod Liver Oil", "hair_care": "Minoxidil", "skin_care": "Cleanse, Niacinamide, CeraVe Lotion, SPF"}, {"date": "2026-01-16", "time": "12:00", "weekday": "Friday", "period": "midday", "supplements": "Lion's Mane, ACV, Calcium Magnesium Zinc", "hair_care": null, "skin_care": "HA body, Body cream"}, {"date": "2026-01-16", "time": "20:00", "weekday": "Friday", "period": "night", "supplements": "Biotin, ACV", "hair_care": "Minoxidil", "skin_care": "Azelaic Acid, CeraVe Cream"}, {"date": "2026-01-17", "time": "07:00", "weekday": "Saturday", "period": "morning", "supplements": "Alpha GPC, Lion's Mane, B-Complex, Biotin, Pygeum Africanum, Cod Liver Oil", "hair_care": "Minoxidil", "skin_care": "Cleanse, Niacinamide, CeraVe Lotion, SPF"}, {"date": "2026-01-17", "time": "12:00", "weekday": "Saturday", "period": "midday", "supplements": "Lion's Mane, ACV", "hair_care": "Oil mask (Coconut oil, Moringa oil, Rosemary oil, Castor oil), Wash hair", "skin_care": "HA body, Body cream"}, {"date": "2026-01-17", "time": "20:00", "weekday": "Saturday", "period": "night", "supplements": "Biotin, ACV", "hair_care": "Minoxidil", "skin_care": "Moisturizer"}, {"date": "2026-01-18", "time": "07:00", "weekday": "Sunday", "period": "morning", "supplements": "Alpha GPC, Lion's Mane, B-Complex, Biotin, Pygeum Africanum, Cod Liver Oil", "hair_care": null, "skin_care": "Cleanse, Niacinamide, CeraVe Lotion, SPF"}, {"date": "2026-01-18", "time": "12:00", "weekday": "Sunday", "period": "midday", "supplements": "Lion's Mane, ACV", "hair_care": null, "skin_care": "HA body, Body cream"}, {"date": "2026-01-18", "time": "20:00", "weekday": "Sunday", "period": "night", "supplements": "Biotin, ACV", "hair_care": "Microneedling", "skin_care": "Moisturizer"}, {"date": "2026-01-19", "time": "07:00", "weekday": "Monday", "period": "morning", "supplements": "Alpha GPC, Lion's Mane, B-Complex, Biotin, Pygeum Africanum, Cod Liver Oil", "hair_care": null, "skin_care": "Cleanse, Niacinamide, CeraVe Lotion, SPF"}, {"date": "2026-01-19", "time": "12:00", "weekday": "Monday", "period": "midday", "supplements": "Lion's Mane, ACV, Calcium Magnesium Zinc", "hair_care": null, "skin_care": "HA body, Body cream"}, {"date": "2026-01-19", "time": "20:00", "weekday": "Monday", "period": "night", "supplements": "Biotin, ACV", "hair_care": "Minoxidil", "skin_care": "Azelaic Acid, CeraVe Cream"}, {"date": "2026-01-20", "time": "07:00", "weekday": "Tuesday", "period": "morning", "supplements": "Alpha GPC, Lion's Mane, B-Complex, Biotin, Pygeum Africanum, Cod Liver Oil", "hair_care": "Minoxidil", "skin_care": "Cleanse, Niacinamide, CeraVe Lotion, SPF"}, {"date": "2026-01-20", "time": "12:00", "weekday": "Tuesday", "period": "midday", "supplements": "Lion's Mane, ACV", "hair_care": null, "skin_care": "HA body, Body cream"}, {"date": "2026-01-20", "time": "20:00", "weekday": "Tuesday", "period": "night", "supplements": "Biotin, ACV", "hair_care": "Minoxidil", "skin_care": "Moisturizer"}, {"date": "2026-01-21", "time": "07:00", "weekday": "Wednesday", "period": "morning", "supplements": "Alpha GPC, Lion's Mane, B-Complex, Biotin, Pygeum Africanum, Cod Liver Oil", "hair_care": "Minoxidil", "skin_care": "Cleanse, Niacinamide, CeraVe Lotion, SPF"}, {"date": "2026-01-21", "time": "12:00", "weekday": "Wednesday", "period": "midday", "supplements": "Lion's Mane, ACV, Calcium Magnesium Zinc", "hair_care": "Oil mask (Coconut oil, Moringa oil, Rosemary oil, Castor oil), Wash hair", "skin_care": "HA body, Body cream"}, {"date": "2026-01-21", "time": "20:00", "weekday": "Wednesday", "period": "night", "supplements": "Biotin, ACV", "hair_care": "Minoxidil", "skin_care": "Retinol, CeraVe Cream"}]
+[
+  {
+    "date": "2026-01-15",
+    "time": "07:00",
+    "weekday": "Thursday",
+    "period": "morning",
+    "supplements": "Alpha GPC, Lion's Mane, B-Complex, Biotin, Pygeum Africanum, Cod Liver Oil",
+    "hair_care": "Minoxidil",
+    "skin_care": "Cleanse, Niacinamide, CeraVe Lotion, SPF"
+  },
+  {
+    "date": "2026-01-15",
+    "time": "12:00",
+    "weekday": "Thursday",
+    "period": "midday",
+    "supplements": "Lion's Mane, ACV",
+    "hair_care": null,
+    "skin_care": "HA body, Body cream"
+  },
+  {
+    "date": "2026-01-15",
+    "time": "20:00",
+    "weekday": "Thursday",
+    "period": "night",
+    "supplements": "Biotin, ACV",
+    "hair_care": "Minoxidil",
+    "skin_care": "Moisturizer"
+  },
+  {
+    "date": "2026-01-16",
+    "time": "07:00",
+    "weekday": "Friday",
+    "period": "morning",
+    "supplements": "Alpha GPC, Lion's Mane, B-Complex, Biotin, Pygeum Africanum, Cod Liver Oil",
+    "hair_care": "Minoxidil",
+    "skin_care": "Cleanse, Niacinamide, CeraVe Lotion, SPF"
+  },
+  {
+    "date": "2026-01-16",
+    "time": "12:00",
+    "weekday": "Friday",
+    "period": "midday",
+    "supplements": "Lion's Mane, ACV, Calcium Magnesium Zinc",
+    "hair_care": null,
+    "skin_care": "HA body, Body cream"
+  },
+  {
+    "date": "2026-01-16",
+    "time": "20:00",
+    "weekday": "Friday",
+    "period": "night",
+    "supplements": "Biotin, ACV",
+    "hair_care": "Minoxidil",
+    "skin_care": "Azelaic Acid, CeraVe Cream"
+  },
+  {
+    "date": "2026-01-17",
+    "time": "07:00",
+    "weekday": "Saturday",
+    "period": "morning",
+    "supplements": "Alpha GPC, Lion's Mane, B-Complex, Biotin, Pygeum Africanum, Cod Liver Oil",
+    "hair_care": "Minoxidil",
+    "skin_care": "Cleanse, Niacinamide, CeraVe Lotion, SPF"
+  },
+  {
+    "date": "2026-01-17",
+    "time": "12:00",
+    "weekday": "Saturday",
+    "period": "midday",
+    "supplements": "Lion's Mane, ACV",
+    "hair_care": "Oil mask (Coconut oil, Moringa oil, Rosemary oil, Castor oil), Wash hair",
+    "skin_care": "HA body, Body cream"
+  },
+  {
+    "date": "2026-01-17",
+    "time": "20:00",
+    "weekday": "Saturday",
+    "period": "night",
+    "supplements": "Biotin, ACV",
+    "hair_care": "Minoxidil",
+    "skin_care": "Moisturizer"
+  },
+  {
+    "date": "2026-01-18",
+    "time": "07:00",
+    "weekday": "Sunday",
+    "period": "morning",
+    "supplements": "Alpha GPC, Lion's Mane, B-Complex, Biotin, Pygeum Africanum, Cod Liver Oil",
+    "hair_care": null,
+    "skin_care": "Cleanse, Niacinamide, CeraVe Lotion, SPF"
+  },
+  {
+    "date": "2026-01-18",
+    "time": "12:00",
+    "weekday": "Sunday",
+    "period": "midday",
+    "supplements": "Lion's Mane, ACV",
+    "hair_care": null,
+    "skin_care": "HA body, Body cream"
+  },
+  {
+    "date": "2026-01-18",
+    "time": "20:00",
+    "weekday": "Sunday",
+    "period": "night",
+    "supplements": "Biotin, ACV",
+    "hair_care": "Microneedling",
+    "skin_care": "Moisturizer"
+  },
+  {
+    "date": "2026-01-19",
+    "time": "07:00",
+    "weekday": "Monday",
+    "period": "morning",
+    "supplements": "Alpha GPC, Lion's Mane, B-Complex, Biotin, Pygeum Africanum, Cod Liver Oil",
+    "hair_care": null,
+    "skin_care": "Cleanse, Niacinamide, CeraVe Lotion, SPF"
+  },
+  {
+    "date": "2026-01-19",
+    "time": "12:00",
+    "weekday": "Monday",
+    "period": "midday",
+    "supplements": "Lion's Mane, ACV, Calcium Magnesium Zinc",
+    "hair_care": null,
+    "skin_care": "HA body, Body cream"
+  },
+  {
+    "date": "2026-01-19",
+    "time": "20:00",
+    "weekday": "Monday",
+    "period": "night",
+    "supplements": "Biotin, ACV",
+    "hair_care": "Minoxidil",
+    "skin_care": "Azelaic Acid, CeraVe Cream"
+  },
+  {
+    "date": "2026-01-20",
+    "time": "07:00",
+    "weekday": "Tuesday",
+    "period": "morning",
+    "supplements": "Alpha GPC, Lion's Mane, B-Complex, Biotin, Pygeum Africanum, Cod Liver Oil",
+    "hair_care": "Minoxidil",
+    "skin_care": "Cleanse, Niacinamide, CeraVe Lotion, SPF"
+  },
+  {
+    "date": "2026-01-20",
+    "time": "12:00",
+    "weekday": "Tuesday",
+    "period": "midday",
+    "supplements": "Lion's Mane, ACV",
+    "hair_care": null,
+    "skin_care": "HA body, Body cream"
+  },
+  {
+    "date": "2026-01-20",
+    "time": "20:00",
+    "weekday": "Tuesday",
+    "period": "night",
+    "supplements": "Biotin, ACV",
+    "hair_care": "Minoxidil",
+    "skin_care": "Moisturizer"
+  },
+  {
+    "date": "2026-01-21",
+    "time": "07:00",
+    "weekday": "Wednesday",
+    "period": "morning",
+    "supplements": "Alpha GPC, Lion's Mane, B-Complex, Biotin, Pygeum Africanum, Cod Liver Oil",
+    "hair_care": "Minoxidil",
+    "skin_care": "Cleanse, Niacinamide, CeraVe Lotion, SPF"
+  },
+  {
+    "date": "2026-01-21",
+    "time": "12:00",
+    "weekday": "Wednesday",
+    "period": "midday",
+    "supplements": "Lion's Mane, ACV, Calcium Magnesium Zinc",
+    "hair_care": "Oil mask (Coconut oil, Moringa oil, Rosemary oil, Castor oil), Wash hair",
+    "skin_care": "HA body, Body cream"
+  },
+  {
+    "date": "2026-01-21",
+    "time": "20:00",
+    "weekday": "Wednesday",
+    "period": "night",
+    "supplements": "Biotin, ACV",
+    "hair_care": "Minoxidil",
+    "skin_care": "Retinol, CeraVe Cream"
+  }
+]
