@@ -271,3 +271,105 @@ table.schedule-table tbody tr:nth-child(odd) {
   background: #222;
   color: #eee;
 }
+/* Dynamic backgrounds */
+body.morning {
+  background: linear-gradient(160deg, #f6d365 0%, #fda085 100%);
+}
+body.midday {
+  background: linear-gradient(160deg, #a8edea 0%, #fed6e3 100%);
+}
+body.night {
+  background: linear-gradient(160deg, #2b5876 0%, #4e4376 100%);
+}
+
+/* Improved filter chips */
+.filter-chip {
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.1);
+  color: #fff;
+  padding: 0.3rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  backdrop-filter: blur(4px);
+}
+.filter-chip:hover {
+  background: rgba(255,255,255,0.15);
+}
+.filter-chip.active {
+  background: #00a8e8;
+  color: #fff;
+  border-color: #00a8e8;
+}
+
+/* Card carousel improvements */
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+.card {
+  scroll-snap-align: center;
+  flex: 0 0 80%;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 1rem;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card.center {
+  transform: scale(1.1);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.35);
+  border-color: rgba(255,255,255,0.2);
+}
+/* Badges */
+.badge {
+  background: #00a8e8;
+  color: #fff;
+  padding: 0.15rem 0.6rem;
+  border-radius: 14px;
+  font-size: 0.7rem;
+  line-height: 1;
+}
+.card .details {
+  margin-top: auto;
+  font-size: 0.8rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+.card.expanded .details {
+  max-height: 200px;
+}
+.card .toggle {
+  margin-top: 0.5rem;
+  text-align: right;
+  cursor: pointer;
+  color: #00a8e8;
+  font-size: 0.8rem;
+}
+
+/* Modal styling */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+}
+.modal .modal-content {
+  background: #222;
+  padding: 2rem;
+  border-radius: 12px;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
