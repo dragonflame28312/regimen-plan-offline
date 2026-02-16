@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regimen Plan</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <!-- Header with title, subtitle and filters -->
+  <header id="header">
+    <h1>Regimen Plan</h1>
+    <p class="subtitle">Swipe or use arrows to navigate. Cards expand when centered.</p>
+    <div class="filters">
+      <div class="filter-group" id="time-filters">
+        <span class="filter-label">Time:</span>
+        <button class="filter-chip active" data-time="all">All</button>
+        <button class="filter-chip" data-time="morning">Morning</button>
+        <button class="filter-chip" data-time="midday">Midday</button>
+        <button class="filter-chip" data-time="night">Night</button>
+        <button class="filter-chip" data-time="daily">Daily</button>
+      </div>
+      <div class="filter-group" id="type-filters">
+        <span class="filter-label">Type:</span>
+        <button class="filter-chip active" data-type="all">All</button>
+        <button class="filter-chip" data-type="supplement">Supplements</button>
+        <button class="filter-chip" data-type="skin">Skin</button>
+        <button class="filter-chip" data-type="hair">Hair</button>
+      </div>
+    </div>
+    <div class="actions">
+      <button id="calendar-btn" class="primary-btn">Calendar</button>
+      <button id="fullschedule-btn" class="primary-btn">View Full Schedule</button>
+    </div>
+  </header>
+
+  <!-- Main content area -->
+  <main id="content">
+    <div id="carousel" class="carousel"></div>
+  </main>
+
+  <!-- Calendar modal -->
+  <div id="calendar-modal" class="modal hidden">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <button class="close-modal" data-modal="calendar-modal">&times;</button>
+      <h2>Monthly Schedule Planner</h2>
+      <div class="calendar-controls">
+        <button id="prev-month" class="nav-btn">&#8249;</button>
+        <span id="calendar-month" class="month-title"></span>
+        <button id="next-month" class="nav-btn">&#8250;</button>
+      </div>
+      <div id="calendar-grid" class="calendar-grid"></div>
+      <div id="day-details" class="day-details hidden">
+        <h3 id="details-date"></h3>
+        <div id="details-content"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Full schedule modal -->
+  <div id="schedule-modal" class="modal hidden">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <button class="close-modal" data-modal="schedule-modal">&times;</button>
+      <h2>Full Regimen Schedule</h2>
+      <div class="schedule-search">
+        <input id="search-schedule" type="text" placeholder="Search schedule…">
+      </div>
+      <div id="schedule-table-container" class="schedule-table-container"></div>
+    </div>
+  </div>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
